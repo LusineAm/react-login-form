@@ -1,11 +1,17 @@
-import './App.css';
-import Form from './containers/Form/Form';
+import React from 'react';
+
+import Header from './containers/Header/Header';
+import Layout from './components/Layout/Layout';
+import Form from "./containers/Form/Form";
 
 function App() {
 
   return (
     <div className="App">
-      <Form />
+      <Header />
+      <Layout>
+        <Form />
+      </Layout>
     </div>
   );
 }

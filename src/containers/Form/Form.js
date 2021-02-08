@@ -4,7 +4,7 @@ import Button from '../../components/Button/Button';
 import { ValidateName } from '../../util/validate';
 import { ValidatePassword } from '../../util/validate';
 
-import './form.css';
+import './Form.css';
 
 function Form () {
     const [userName, setUserName] = useState('');
